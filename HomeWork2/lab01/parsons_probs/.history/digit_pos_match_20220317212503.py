@@ -18,3 +18,7 @@ def digit_pos_match(n, k):
         return True
     else:
         return False
+    
+# if __name__=='__main__':
+#     import doctest
+#     doctest.testmod(verbose=True)
