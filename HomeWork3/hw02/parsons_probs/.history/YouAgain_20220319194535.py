@@ -18,13 +18,13 @@ def again(f):
         3
         """
     n = 1
-    while True:
-        m = 0
-        for m in range(1, n):
-            if f(m) == f(n):
-                return max(m, n)
-        n = n + 1
+    
+    m = 0
+    
+    
+    
+    n = n + 1
 
-if __name__ == '__main__':
-    import doctest
-    doctest.testmod(verbose=True)
+# if __name__ == '__main__':
+#     import doctest
+#     doctest.testmod(verbose=True)
