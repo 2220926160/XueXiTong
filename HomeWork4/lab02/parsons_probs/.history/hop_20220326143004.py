@@ -9,7 +9,7 @@ def hop():
     7
     """
     "*** YOUR CODE HERE ***"
-    def hop_1(x):
+    def hop_1():
         def hop_2(y):
             print(y)
         return hop_2
