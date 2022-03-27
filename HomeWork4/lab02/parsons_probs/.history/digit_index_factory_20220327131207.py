@@ -25,6 +25,7 @@ def digit_index_factory(num, k):
         return -1
     return digit
 
-if __name__ == '__main__':
-    import doctest
-    doctest.testmod(verbose=True)
+print(digit_index_factory(34567, 4)())
+# if __name__ == '__main__':
+#     import doctest
+#     doctest.testmod(verbose=True)

@@ -16,7 +16,7 @@ def digit_index_factory(num, k):
     """
     "*** YOUR CODE HERE ***"
     def digit(num = num, k = k):
-        i = 0
+        i = 1
         while num != 0:
             if num % 10 == k:
                 return i
@@ -25,6 +25,7 @@ def digit_index_factory(num, k):
         return -1
     return digit
 
+# print(digit_index_factory(34567, 4)())
 if __name__ == '__main__':
     import doctest
     doctest.testmod(verbose=True)

@@ -14,7 +14,3 @@ def hop():
             print(y)
         return hop_2
     return hop_1
-
-if __name__ == '__main__':
-    import doctest
-    doctest.testmod(verbose=True)

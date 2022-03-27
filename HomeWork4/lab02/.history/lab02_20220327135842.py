@@ -1,5 +1,8 @@
 
 
+from tkinter.tix import Tree
+
+
 def lambda_curry2(func):
     """
     Returns a Curried version of a two-argument function FUNC.
@@ -62,15 +65,7 @@ def count_cond(condition):
     >>> count_primes(20)   # 2, 3, 5, 7, 11, 13, 17, 19
     8
     """
-    def func(n):
-        count = 0
-        i = 1
-        while i <= n:
-            if condition(n, i):
-                count += 1
-            i += 1
-        return count
-    return func
+    "*** YOUR CODE HERE ***"
 
 
 def composer(f, g):
@@ -107,7 +102,7 @@ def composite_identity(f, g):
     """
     def judge(x):
         if composer(f, g)(x) == composer(g, f)(x):
-            return True
+            return Tree
         return False
     return judge
 

@@ -15,13 +15,13 @@ def digit_index_factory(num, k):
     -1
     """
     "*** YOUR CODE HERE ***"
-    def digit(num = num, k = k):
-        i = 0
-        while num != 0:
-            if num % 10 == k:
-                return i
-            num //= 10
-            i += 1
+    def digit():
+        # i = 0
+        # while num:
+        #     if num % 10 == k:
+        #         return i
+        #     num //= 10
+        #     i += 1
         return -1
     return digit
 
